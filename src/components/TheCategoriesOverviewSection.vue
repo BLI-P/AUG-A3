@@ -35,7 +35,7 @@ export default {
         <category-overview-card
           background="bg-red-600"
           shadow="shadow-red-400"
-          name="To be finished"
+          name="Unsettled"
           :tasks-count="notCompleted"
           :total="total"
         />
