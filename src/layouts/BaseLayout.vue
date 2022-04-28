@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <main class="min-h-screen text-gray-900">
+  <main style = "background-image : url('../wallpaper.svg'); background-repeat : no-repeat; background-size : cover;" class="min-h-screen text-gray-900">
     <div :class="`mx-auto max-w-screen-md w-[90%] ${classes}`">
       <slot></slot>
     </div>
