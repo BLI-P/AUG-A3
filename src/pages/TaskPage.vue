@@ -93,7 +93,7 @@ export default {
         v-model="task.description"
       />
       <div class="mb-4 flex items-center gap-2 text-lg">
-        <input type="checkbox" v-model="task.completed" class="rounded" />
+        <input type="checkbox" v-model="task.completed" style="background = 'background-color: rgb(37 99 235 / var(--tw-bg-opacity));'" class="rounded" />
         {{ task.completed ? 'Finished' : 'Unfinished' }}
       </div>
       <div class="flex justify-end text-lg gap-4">
