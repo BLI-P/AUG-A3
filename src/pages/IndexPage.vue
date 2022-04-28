@@ -44,7 +44,7 @@ export default {
       @saved="revalidate"
     />
     <div class="py-8 mb-8 flex items-center justify-between">
-      <h1 style = "font-family :'Inter', sans-serif; font-weight : 600; color : white" class="text-4xl tracking-tighter">Task List</h1>
+      <h1 style = "font-family :'Inter', sans-serif; font-weight : 600; color : white" class="text-4xl tracking-tighter">Task List <img src = 'https://pps.whatsapp.net/v/t61.24694-24/187720679_2741065872854804_7789887266564837040_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=c0eb9cc040b64903bcac03be82c4056d&oe=62780F87' height = "50"></h1>
       <button
         class="py-2 px-4 text-sm flex items-center gap-2 bg-blue-600 text-white rounded-lg transition hover:shadow-lg hover:shadow-blue-200"
         @click="toggleModal"
