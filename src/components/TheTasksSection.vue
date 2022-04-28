@@ -25,7 +25,7 @@ export default {
 <template>
   <section name="tasks">
     <div class="mt-8 mb-4 flex items-center justify-between">
-      <p class="text-gray-500">TODAY'S TASKS</p>
+      <p style = "color : white;" class="text-gray-500">TODAY'S LIST</p>
       <select
         v-model="filter"
         class="py-0 border-none bg-transparent focus:ring-transparent"

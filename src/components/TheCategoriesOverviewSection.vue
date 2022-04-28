@@ -20,7 +20,6 @@ export default {
 
 <template>
   <section name="categories-overview">
-    <p class="text-gray-500 mb-4">CATEGORIES</p>
     <div class="grid grid-cols-2 gap-4">
       <transition name="bounce" appear>
         <category-overview-card
