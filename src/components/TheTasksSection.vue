@@ -28,7 +28,7 @@ export default {
       <p style = "color : white;" class="text-gray-500">TODAY'S LIST</p>
       <select
         v-model="filter"
-        class="py-0 border-none bg-transparent focus:ring-transparent"
+        class="py-0 border-none focus:ring-transparent"
       >
         <option>All</option>
         <option>Finished</option>
